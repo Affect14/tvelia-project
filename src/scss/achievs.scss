@@ -1,0 +1,25 @@
+.achievs{
+    display:flex;
+    justify-content: space-between;
+    margin-top:165px;
+
+    .achieve{
+        display: grid;
+        font-size:18px;
+        grid-template-areas:
+            'img__achieve firstline'
+            'img__achieve secondline';
+
+        .img__achieve{
+            grid-area: img__achieve;
+            margin-right:37px;
+        }
+        .firstline{
+            grid-area: firstline;
+            color: #FF5300;
+        }
+        .secondline{
+            grid-area: secondline;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.rating{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:111px;
+
+    .title__rating{
+        text-align: center;
+    }
+
+    .top__places{
+        display: flex;
+        justify-content: space-around;
+        margin-top:63px;
+    }
+
+    .img__item{
+        img{
+            margin-bottom:17px;
+            transition: 0.4s;
+            border-radius: 11px;
+            &:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+    }
+    .rate{
+        margin-top: 14px;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        color:#FFD4BF;
+        img{
+           width:83px;
+           height: 12px;
+           margin-top:7px;
+           border:none;
+        }
+    }
+}

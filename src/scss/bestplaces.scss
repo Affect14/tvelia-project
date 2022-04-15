@@ -1,0 +1,21 @@
+.bestplaces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .gallery{
+        display: grid;
+        width:1330px;
+        height: 468px;
+        grid-gap:8px;
+        grid-template-columns: repeat(4,1fr);
+        img{
+            border-radius: 10px;
+        }
+        
+        .container__gallery{
+            display: grid;
+            
+        }
+    }
+}
